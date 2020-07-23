@@ -1,15 +1,10 @@
 let battelfield = document.querySelector(".container");
 
 let fireFunction = () => {
-//    battelfield.childNodes[Math.floor(Math.random() * 10)].childNodes[Math.floor(Math.random() * 10)].style.background= "red"; 
+   battelfield.childNodes[Math.floor(Math.random() * 10)].childNodes[Math.floor(Math.random() * 10)].style.background= "red"; 
 
-let rows = battelfield.childNodes[Math.floor(Math.random() * 10)];
-let cells = rows.childNodes[Math.floor(Math.random() * 10)];
-
-cells.style.background= "red";
-
-console.log(rows);
-console.log(cells);
+console.log(battelfield.childNodes);
+console.log(battelfield.childNodes[0].childNodes);
 }
 
 window.onload = () => {
