@@ -3,8 +3,8 @@ let battelfield = document.querySelector(".container");
 let fireFunction = () => {
    battelfield.childNodes[Math.floor(Math.random() * 10)].childNodes[Math.floor(Math.random() * 10)].style.background= "red"; 
 
-console.log(battelfield.childNodes);
-console.log(battelfield.childNodes[0].childNodes);
+// console.log(battelfield.childNodes);
+// console.log(battelfield.childNodes[0].childNodes);
 }
 
 window.onload = () => {
